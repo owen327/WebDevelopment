@@ -1,0 +1,47 @@
+1)
+Given the following URL:
+
+https://amazon.com/Double-Stainless-Commercial-Refrigerator/B60HON32?ie=UTF8&qid=142952676&sr=93&keywords=commercial+fridge
+a.
+The host is amazon.com
+b.
+The names of the query parameters are ie, qid, sr and keywords
+c.
+The values of the query parameters are UTF8, 142952676, 93 and commercial+fridge
+d.
+The protocol is https
+e.
+The path is /Double-Stainless-Commercial-Refrigerator/B60HON32
+f.
+ Most software will use port 443 by default when working with this URL due to it having a protocol of https, but that information is not contained within the URL.
+
+2)
+http://amazon.com:3000/products/B60HON32?qid=142952676&sr=93
+
+3)
+Given the following URL:
+
+http://localhost:4567/todos/15
+
+a.
+The URL has no query parameters
+b.
+The protocol is http
+c.
+The path is /todos/15
+d.
+The host is localhost
+e.
+The port is 4567
+
+4)
+%20 or + is used to encode space in a query parameter
+
+5)
+? indicates the beginning of a URL's query parameters
+
+6)
+= is used betwen the name and value of a query parameter
+
+7)
+& is used between multiple query parameters
